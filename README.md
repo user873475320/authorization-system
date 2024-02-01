@@ -1,0 +1,1 @@
+Web application that enables users to register new accounts and securely sign in. The backend of this application utilizes Java Servlets, and user data is currently stored in a simple text file (with potential plans for future integration with a database). All interactions with web servers take place using the HTTP protocol.
