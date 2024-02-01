@@ -4,17 +4,6 @@
 
 <%--Checking if a client already signed in and tried to get access to the index page, if so then--%>
 <%--we forward them to the JSP homePage--%>
-<%
-    Object tmp = session.getAttribute(ConstantsInterface.signInAttribute);
-    if (tmp instanceof Boolean) {
-        Boolean isSignedIn = (Boolean) tmp;
-
-        if (isSignedIn){
-            request.getRequestDispatcher("/jsp/homePage.jsp").forward(request, response);
-        }
-    }
-%>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
